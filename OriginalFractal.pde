@@ -9,13 +9,13 @@ public void draw(){
 	background(bob, bob, bob);
 	fractal(450, 450, 450);
 	if(boy == true){
-		bob += 5;
+		bob += 4;
 	}
 	if(bob > 255){
 		boy = false;
 	}
 	if(boy == false){
-		bob -= 5;
+		bob -= 4;
 	}
 	if(bob < 0){
 		boy = true;
