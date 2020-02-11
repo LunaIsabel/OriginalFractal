@@ -7,7 +7,6 @@ public void setup(){
 
 public void draw(){
 	background(bob, bob, bob);
-	stroke(my, my, my);
 	fractal(450, 450, 450);
 	if(boy == true){
 		bob += 5;
